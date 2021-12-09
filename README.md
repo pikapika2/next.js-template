@@ -1,8 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## 起動方法
 
-First, run the development server:
+以下のようにしてサーバを起動
 
 ```bash
 npm run dev
@@ -10,13 +10,16 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000)を開けば「Hello world」が出る。
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## PrettierとESLint
+この二つは併用して動かしている。
+最低限の設定しか行っていないため、各自お好みで。
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Renovateの導入
+Renovateを最低限動かすファイルは作っているので、
+リポジトリ作成後、各自設定する。
+いらない場合は、.github/renovate.jsonを削除する。
 
 ## Learn More
 
